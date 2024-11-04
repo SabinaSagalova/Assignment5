@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="color: brown;">PART 1</h1>
+    <!-- Ex 1 Nearest and Farthest to 100 -->
+    <h1>Nearest and Farthest to 100</h1>
+    <button onclick="Find()">Find the nearest and farthest to 100</button>
+    <p id="result"></p>
+
+    <!-- Ex 2 Alphabetical order -->
+    <h1>Alphabetical Order</h1>
+    <input type="text" id="input">
+    <button onclick="ChangeOrder()">Change to Alphabetical Order</button>
+    <p id="sorted"></p>
+
+    <!-- Ex 3 Not Repeated character -->
+    <h1>Not Repeated character</h1>
+    <input type="text" id="inputText">
+    <button onclick="FindFirstNotRepeated()">Find first not repeated character</button>
+    <p id="res"></p>
+
+    <!-- Ex 4 Replace character following alphabet -->
+    <h1>Replace character following alphabet</h1>
+    <input type="text" id="string">
+    <button onclick="FollowingAlphabet()">Change</button>
+
+    <!-- Ex 5 Longest and Shortest String -->
+    <h1>Longest and Shortest String</h1>
+    <button onclick="FindLongShort()">Find the Longest and Shortest Word</button>
+    <p id="finded"></p>
+
+
+    <h1 style="color: brown;">PART 3. JS mathematics</h1>
+    <!-- Ex 11 Volume Sphere -->
+    <h1>The Volume of Sphere</h1>
+    <label for="radius">Enter the Radius</label>
+    <input type="number" id="radius" required> <br>
+
+    <label for="volume">Volume is: </label>
+    <input type="number" id="volume" readonly> <br>
+
+    <button onclick="VolSphere()">Calculate Volume</button>
+    
+    <!-- Ex 12 Volume Cylinder -->
+    <h1>Volume Cylinder</h1>
+    <label for="r">Enter the Radius</label>
+    <input type="number" id="r" required> <br>
+
+    <label for="h">Enter the Height</label>
+    <input type="number" id="h" required> <br>
+
+    <label for="vol">Volume is: </label>
+    <input type="number" id="vol" readonly> <br>
+
+    <button onclick="VolCylinder()">Calculate Volume</button>
+
+    <!-- Ex 13 Volume Cone -->
+    <h1>Volume Cone</h1>
+    <label for="radi">Enter the Radius</label>
+    <input type="number" id="radi" required> <br>
+
+    <label for="hei">Enter the Height</label>
+    <input type="number" id="hei"> <br>
+
+    <label for="V">Volume is: </label>
+    <input type="number" id="V" readonly> <br>
+    <button onclick="VolCone()">Calculate Volume</button>
+
+    <!-- Ex 14 Volume Prism -->
+     <h1>Volume Prism</h1>
+     <label for="len">Enter the length</label>
+     <input type="number" id="len" required> <br>
+
+     <label for="wid">Enter the width</label>
+     <input type="number" id="wid" required> <br>
+
+     <label for="height">Enter the height</label>
+     <input type="number" id="height" required> <br>
+
+     <label for="volu">Volume is:</label>
+     <input type="number" id="volu" readonly> <br>
+     <button onclick="VolPrism()">Calculate Volume</button>
+     
+     <!-- Ex 14 Area Triangle -->
+    <h1>Area Triangle</h1>
+    <label for="base">Enter the Base</label>
+    <input type="number" id="base" required> <br>
+
+    <label for="H">Enter the Height</label>
+    <input type="number" id="H" required> <br>
+
+    <label for="area">Area is: </label>
+    <input type="number" id="area" readonly> <br>
+    <button onclick="AreaTri()">Calculate Area</button>
+    
+    <h1 style="color: brown;">PART 2. Using DOM</h1>
+    <!-- Ex 6 Highlight Words -->
+    <h1>Highlight the Words</h1>
+    <p id="par">Beneath the fading orange hues of the setting sun, a gentle breeze swept through the 
+      quiet meadow, stirring the golden tips of tall grass. The scent of damp earth mingled 
+      with the faint aroma of wildflowers, creating a soothing perfume that felt almost nostalgic. 
+      A lone bird sang from a distant tree, its melody rising and falling like a forgotten lullaby. 
+      Time seemed to slow, as if the world were holding its breath, savoring this fleeting moment 
+      of peace before nightfall blanketed the landscape in stars. Somewhere on the horizon, the first 
+      hint of twilight shimmered, signaling the end of the day's quiet symphony.</p>
+
+    <button onclick="highlight()">Highlight The Words</button>
+
+    <!-- Ex 7 Replace Symbols -->
+     <h1>Replace Symbols</h1>
+    <p id="para">What a beautiful day! Are you ready for the adventure? Let’s explore together!</p>
+    <button onclick="replaceSymbols()">Replace Symbols</button>
+
+    <!-- Ex 8 Split Sentences -->
+    <h1>Split Sentences</h1>
+    <p id="parag">Beneath the fading orange hues of the setting sun! A gentle breeze swept through the 
+        quiet meadow, stirring the golden tips of tall grass? The scent of damp earth mingled 
+        with the faint aroma of wildflowers, creating a soothing perfume that felt almost nostalgic.</p>
+    <button onclick="splitSentences()">Split Sentences</button>
+
+    <!-- Ex 9 Words Counter -->
+    <h1>Count Words</h1>
+    <p id="paragr">Beneath the fading orange hues of the setting sun! A gentle breeze swept through the 
+        quiet meadow, stirring the golden tips of tall grass? The scent of damp earth mingled 
+        with the faint aroma of wildflowers, creating a soothing perfume that felt almost nostalgic.</p>
+    <button onclick="wordCnt()">Count Words</button>
+
+    <!-- Ex 9 Lorem -->
+    <h1>Highlight Words</h1>
+    <p id="te">Lorey ipsum dolor, sit amet consectetur adipisiciny elit. Ampedi nam reiciendis, quas, officiis iure voluptatey esse quo atque maxime consequuntur a sit eveniet veniam quisquam quaerat excepturi neque minus minima.</p>
+    <button onclick="highlightWords()">Highlight Words</button>
+
+
+    <script src="./index.js" defer></script>
+</body>
+</html>
